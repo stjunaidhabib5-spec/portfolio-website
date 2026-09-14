@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Junaid ★ Creative Technologist & AI Engineer</title>
+  <meta name="description" content="Editorial portfolio of Junaid — Creative Technologist, AI Engineer & Visual Designer. Blending generative intelligence, tactile interfaces, and editorial craft.">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Junaid ★ Creative Technologist & AI Engineer">
+  <meta property="og:description" content="Chic retro-editorial portfolio featuring tactile sticker navigation, live monospace clock, and floating social constellation.">
+  
+  <!-- Google Fonts Preconnect & Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Outfit:wght@400;500;600;700;800&family=Righteous&family=Rock+Salt&family=Rubik+Mono+One&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="vintage">
+  <!-- Subtle Grain Overlay -->
+  <div class="vintage-grain" aria-hidden="true"></div>
+
+  <!-- Main Viewport Poster Container -->
+  <main class="poster-container" id="posterRoot">
+    
+    <!-- Editorial Inset Perimeter Frame -->
+    <div class="inset-perimeter-frame" aria-hidden="true">
+      <div class="frame-corner top-left-mark"></div>
+      <div class="frame-corner top-right-mark"></div>
+      <div class="frame-corner bottom-left-mark"></div>
+      <div class="frame-corner bottom-right-mark"></div>
+      <span class="frame-stamp top-center-stamp">ISSUE NO. 04 — AUTONOMOUS MEDIA</span>
+      <span class="frame-stamp bottom-center-stamp">PRINT SPEC: RETRO-EDITION · 100% BROWSER CANVAS</span>
+    </div>
+
+    <!-- Header Grid: Logo & Clock (Left) + Theme & Stickers (Right) -->
+    <header class="poster-header">
+      <!-- Top-Left: Bubble Logo & Monospace Live Clock -->
+      <div class="header-left">
+        <a href="#" class="retro-bubble-logo" id="heroLogo" title="Junaid Portfolio">
+          <span class="bubble-word" id="logoText">JUNAID</span>
+          <span class="bubble-star">★</span>
+        </a>
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span class="status-text" id="statusBadgeText">OPEN FOR COLLABORATIONS</span>
+        </div>
+        <div class="live-clock-container" aria-live="polite">
+          <div class="clock-date" id="liveClockDate">Loading date...</div>
+          <div class="clock-time-row">
+            <span class="clock-time" id="liveClockTime">00:00:00 AM</span>
+            <span class="clock-tz">UTC+6 / LOCAL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top-Right: Theme Toggle & Sticker Badges Navigation -->
+      <div class="header-right">
+        <button class="theme-toggle-stamp" id="themeToggleBtn" aria-label="Toggle Vintage Paper / Midnight Mode" title="Switch Theme">
+          <span class="theme-icon" aria-hidden="true">◑</span>
+          <span class="theme-label" id="themeLabel">PAPER VINTAGE</span>
+        </button>
+
+        <nav class="sticker-nav" id="stickerNav" aria-label="Main Navigation">
+          <!-- Dynamically populated or static fallback stickers -->
+          <button class="sticker-badge sticker-pink" data-modal="projects" style="--rotation: -3deg;" id="navProjectsBtn">
+            <span class="sticker-icon">✦</span>
+            <span class="sticker-label">Projects</span>
+          </button>
+          <button class="sticker-badge sticker-cyan" data-modal="writing" style="--rotation: 2.5deg;" id="navWritingBtn">
+            <span class="sticker-icon">✍</span>
+            <span class="sticker-label">Writing</span>
+          </button>
+          <button class="sticker-badge sticker-purple" data-modal="resume" style="--rotation: -2deg;" id="navResumeBtn">
+            <span class="sticker-icon">⚡</span>
+            <span class="sticker-label">Resume</span>
+          </button>
+          <button class="sticker-badge sticker-yellow" data-modal="about" style="--rotation: 3.2deg;" id="navAboutBtn">
+            <span class="sticker-icon">✿</span>
+            <span class="sticker-label">About</span>
+          </button>
+          <button class="sticker-badge sticker-emerald" data-modal="contact" style="--rotation: -1.5deg;" id="navContactBtn">
+            <span class="sticker-icon">✉</span>
+            <span class="sticker-label">Contact</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Parallax Interactive Canvas Area -->
+    <div class="poster-stage" id="posterStage">
+      
+      <!-- Middle-Left: Handwritten Annotation -->
+      <aside class="handwritten-annotation annotation-left" id="handwrittenLeft">
+        <div class="handwritten-arrow-svg" aria-hidden="true">
+          <svg width="48" height="36" viewBox="0 0 48 36" fill="none">
+            <path d="M4 8C16 4 32 14 42 30M42 30L34 26M42 30L44 20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <p class="handwritten-text" id="handwrittenBio">
+          hi! i'm junaid — exploring the intersections of generative intelligence, expressive typography, and tactile digital interfaces.
+        </p>
+        <div class="curator-badge">
+          <span>CURATED EDITION</span>
+          <span class="asterisk">✲</span>
+        </div>
+      </aside>
+
+      <!-- Organic Floating Social Constellation -->
+      <div class="floating-constellation" id="constellationContainer" aria-label="Social and Creative Links">
+        <!-- Injected via JavaScript from config.js -->
+      </div>
+
+      <!-- Centerpiece Portrait Integration -->
+      <div class="centerpiece-portrait-wrapper" id="portraitWrapper">
+        <div class="portrait-halo" aria-hidden="true"></div>
+        <img 
+          src="assets/portrait.png" 
+          alt="Junaid — Creative Technologist Portrait" 
+          class="centerpiece-portrait" 
+          id="centerpiecePortrait"
+          loading="eager"
+        />
+        <div class="portrait-shadow" aria-hidden="true"></div>
+      </div>
+
+      <!-- Middle-Right: Editorial Slogan & Spec Sheet -->
+      <aside class="editorial-slogan-block" id="sloganBlock">
+        <div class="editorial-eyebrow">FIELD REPORT · 2026</div>
+        <h1 class="editorial-headline" id="editorialHeadline">
+          BUILDING &amp; DESIGNING<br>
+          <span class="outline-text">AT THE FRONTIER</span>
+        </h1>
+        <div class="editorial-tagline" id="editorialTagline">
+          CODE · COGNITION · CRAFT
+        </div>
+        <div class="editorial-specs">
+          <div class="spec-item">
+            <span class="spec-key">LOC //</span>
+            <span class="spec-val" id="specLocation">SF &amp; GLOBAL</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-key">STACK //</span>
+            <span class="spec-val">PYTORCH · TS · WEBGL</span>
+          </div>
+          <div class="spec-item">
+            <span class="spec-key">FOCUS //</span>
+            <span class="spec-val">AGENTIC UIs</span>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+    <!-- Bottom Editorial Footer Bar Inside Perimeter -->
+    <footer class="poster-footer">
+      <div class="footer-col footer-left">
+        <span class="running-ticker-tag">LIVE SIGNALS</span>
+        <div class="ticker-scroll-wrap">
+          <span class="ticker-content">✦ AUTONOMOUS SYSTEMS ✦ PHYSICAL COMPUTING ✦ EXPERIMENTAL TYPOGRAPHY ✦ GENERATIVE SYNTHESIS ✦</span>
+        </div>
+      </div>
+      <div class="footer-col footer-right">
+        <span class="barcode-graphic" aria-hidden="true">||| | |||| || | ||| ||||| ||</span>
+        <span class="copyright-line">© 2026 JUNAID STUDIO. ALL RIGHTS RESERVED.</span>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Chic Editorial Modals Container -->
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal-container" id="modalContainer" role="dialog" aria-modal="true" aria-labelledby="modalHeaderTitle">
+      
+      <!-- Modal Editorial Header -->
+      <header class="modal-header">
+        <div class="modal-header-meta">
+          <span class="modal-category-tag" id="modalCategoryTag">CATALOGUE // 01</span>
+          <h2 class="modal-title" id="modalHeaderTitle">Modal Title</h2>
+          <p class="modal-subtitle" id="modalHeaderSubtitle">Modal description goes here.</p>
+        </div>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal window">
+          <span class="close-icon">✕</span>
+          <span class="close-esc-hint">ESC</span>
+        </button>
+      </header>
+
+      <!-- Dynamic Modal Content Body -->
+      <div class="modal-body" id="modalBody">
+        <!-- Content dynamically injected based on selected category -->
+      </div>
+
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
