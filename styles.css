@@ -382,11 +382,12 @@ body[data-theme="midnight"] .bubble-word {
 /* Centerpiece Portrait Integration */
 .centerpiece-portrait-wrapper {
   position: absolute;
-  bottom: -15px;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: auto;
-  height: clamp(380px, 68vh, 640px);
+  height: clamp(340px, 62vh, 590px);
+  max-width: 88vw;
   z-index: 15;
   display: flex;
   justify-content: center;
@@ -397,14 +398,14 @@ body[data-theme="midnight"] .bubble-word {
 
 .portrait-halo {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   left: 50%;
   transform: translateX(-50%);
-  width: 320px;
+  width: 340px;
   height: 380px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(244, 114, 182, 0.22) 0%, rgba(56, 189, 248, 0.08) 55%, transparent 70%);
-  filter: blur(28px);
+  filter: blur(32px);
   z-index: -1;
 }
 body[data-theme="midnight"] .portrait-halo {
@@ -414,14 +415,14 @@ body[data-theme="midnight"] .portrait-halo {
 .centerpiece-portrait {
   height: 100%;
   width: auto;
-  max-width: 90vw;
+  max-width: 100%;
   object-fit: contain;
-  filter: grayscale(100%) contrast(115%) brightness(103%) drop-shadow(0 15px 25px rgba(0, 0, 0, 0.18));
+  filter: contrast(112%) brightness(102%) drop-shadow(0 12px 24px rgba(0, 0, 0, 0.2));
   user-select: none;
   -webkit-user-drag: none;
 }
 body[data-theme="midnight"] .centerpiece-portrait {
-  filter: grayscale(100%) contrast(120%) brightness(108%) drop-shadow(0 15px 30px rgba(0, 0, 0, 0.65));
+  filter: contrast(116%) brightness(106%) drop-shadow(0 15px 30px rgba(0, 0, 0, 0.7));
 }
 
 /* Middle-Left Handwritten Annotation */
