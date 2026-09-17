@@ -8,7 +8,7 @@ const PORTFOLIO_CONFIG = {
     name: "JUNAID",
     logoText: "JUNAID ★",
     role: "Creative Technologist / AI Engineer & Designer",
-    location: "SAN FRANCISCO & GLOBAL",
+    location: "DHAKA, BANGLADESH",
     statusBadge: "OPEN FOR COLLABORATIONS",
     handwrittenNoteLeft: "hi! i'm junaid — exploring the intersections of generative intelligence, expressive typography, and tactile digital interfaces.",
     editorialSloganRight: "BUILDING & DESIGNING AT THE FRONTIER",
