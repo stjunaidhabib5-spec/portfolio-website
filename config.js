@@ -51,8 +51,8 @@ const PORTFOLIO_CONFIG = {
       id: "discord",
       label: "Discord",
       url: "https://discord.com/users/junaid700al",
-      top: "35%",
-      left: "18%",
+      top: "34%",
+      left: "16%",
       delay: "0.7s",
       duration: "4.5s",
       direction: "reverse"
@@ -71,8 +71,8 @@ const PORTFOLIO_CONFIG = {
       id: "whatsapp",
       label: "WhatsApp",
       url: "https://wa.me/8801916512847",
-      top: "48%",
-      left: "20%",
+      top: "51%",
+      left: "26%",
       delay: "0.9s",
       duration: "4.0s",
       direction: "normal"
@@ -81,8 +81,8 @@ const PORTFOLIO_CONFIG = {
       id: "facebook",
       label: "Facebook",
       url: "https://www.facebook.com/junaid.habib.503",
-      top: "62%",
-      left: "22%",
+      top: "68%",
+      left: "17%",
       delay: "0.3s",
       duration: "3.8s",
       direction: "reverse"
