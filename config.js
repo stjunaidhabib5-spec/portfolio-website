@@ -20,7 +20,7 @@ const PORTFOLIO_CONFIG = {
     {
       id: "github",
       label: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/stjunaidhabib5-spec",
       top: "18%",
       left: "28%",
       delay: "0s",
@@ -30,7 +30,7 @@ const PORTFOLIO_CONFIG = {
     {
       id: "linkedin",
       label: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "https://www.linkedin.com/in/md-junaid-al-habib-siam-226aa2371/",
       top: "10%",
       left: "48%",
       delay: "0.5s",
@@ -40,7 +40,7 @@ const PORTFOLIO_CONFIG = {
     {
       id: "twitter",
       label: "X / Twitter",
-      url: "https://twitter.com",
+      url: "https://x.com/MDJunaidAl65990",
       top: "19%",
       left: "69%",
       delay: "0.2s",
@@ -60,7 +60,7 @@ const PORTFOLIO_CONFIG = {
     {
       id: "email",
       label: "Email",
-      url: "mailto:hello@junaid.dev",
+      url: "mailto:stjunaidhabib5@gmail.com",
       top: "38%",
       left: "75%",
       delay: "0.4s",
@@ -217,13 +217,13 @@ const PORTFOLIO_CONFIG = {
     contact: {
       title: "Let's Build Something Memorable",
       subtitle: "Available for visionary projects, studio collaborations, and technical advisory.",
-      email: "hello@junaid.dev",
+      email: "stjunaidhabib5@gmail.com",
       calendarLink: "https://cal.com",
       channels: [
-        { label: "Email", value: "hello@junaid.dev", href: "mailto:hello@junaid.dev" },
-        { label: "GitHub", value: "@junaid", href: "https://github.com" },
-        { label: "X / Twitter", value: "@junaid", href: "https://twitter.com" },
-        { label: "LinkedIn", value: "in/junaid", href: "https://linkedin.com" }
+        { label: "Email", value: "stjunaidhabib5@gmail.com", href: "mailto:stjunaidhabib5@gmail.com" },
+        { label: "GitHub", value: "@junaid", href: "https://github.com/stjunaidhabib5-spec" },
+        { label: "X / Twitter", value: "MDJunaidAl65990", href: "https://x.com/MDJunaidAl65990" },
+        { label: "LinkedIn", value: "in/junaid", href: "https://www.linkedin.com/in/md-junaid-al-habib-siam-226aa2371/" }
       ]
     }
   }
