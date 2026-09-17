@@ -48,11 +48,11 @@ const PORTFOLIO_CONFIG = {
       direction: "normal"
     },
     {
-      id: "readcv",
-      label: "ReadCV",
-      url: "https://read.cv",
-      top: "38%",
-      left: "19%",
+      id: "discord",
+      label: "Discord",
+      url: "https://discord.com/users/junaid700al",
+      top: "35%",
+      left: "18%",
       delay: "0.7s",
       duration: "4.5s",
       direction: "reverse"
@@ -68,15 +68,25 @@ const PORTFOLIO_CONFIG = {
       direction: "normal"
     },
     {
-      id: "substack",
-      label: "Substack",
-      url: "https://substack.com",
-      top: "54%",
-      left: "22%",
+      id: "whatsapp",
+      label: "WhatsApp",
+      url: "https://wa.me/8801916512847",
+      top: "48%",
+      left: "20%",
       delay: "0.9s",
       duration: "4.0s",
+      direction: "normal"
+    },
+    {
+      id: "facebook",
+      label: "Facebook",
+      url: "https://www.facebook.com/junaid.habib.503",
+      top: "62%",
+      left: "22%",
+      delay: "0.3s",
+      duration: "3.8s",
       direction: "reverse"
-    }
+    },
   ],
 
   // Navigation sticker badges (Top Right)
@@ -223,7 +233,10 @@ const PORTFOLIO_CONFIG = {
         { label: "Email", value: "stjunaidhabib5@gmail.com", href: "mailto:stjunaidhabib5@gmail.com" },
         { label: "GitHub", value: "@junaid", href: "https://github.com/stjunaidhabib5-spec" },
         { label: "X / Twitter", value: "MDJunaidAl65990", href: "https://x.com/MDJunaidAl65990" },
-        { label: "LinkedIn", value: "in/junaid", href: "https://www.linkedin.com/in/md-junaid-al-habib-siam-226aa2371/" }
+        { label: "LinkedIn", value: "in/junaid", href: "https://www.linkedin.com/in/md-junaid-al-habib-siam-226aa2371/" },
+        { label: "WhatsApp", value: "+8801916512847", href: "https://wa.me/8801916512847" },
+        { label: "Facebook", value: "junaid.habib.503 ", href: "https://www.facebook.com/junaid.habib.503" },
+        { label: "Discord", value: "junaid700al", href: "https://discord.com/users/971032649020246555" }
       ]
     }
   }
