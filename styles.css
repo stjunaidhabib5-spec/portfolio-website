@@ -192,6 +192,7 @@ body[data-theme="midnight"] .vintage-grain {
 .bubble-word {
   background: linear-gradient(135deg, var(--pastel-pink) 0%, var(--pastel-purple) 60%, var(--pastel-cyan) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.85));
 }
