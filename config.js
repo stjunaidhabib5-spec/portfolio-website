@@ -104,42 +104,17 @@ const PORTFOLIO_CONFIG = {
       title: "Featured Works & Experiments",
       subtitle: "Selected autonomous systems, creative tools, and interactive editorial spaces.",
       items: [
+        /* Add your projects here when ready. Example schema:
         {
-          title: "NeuroCanvas Generative Studio",
+          title: "Project Title",
           year: "2026",
-          category: "Generative AI / WebGL",
-          description: "An infinite real-time latent canvas combining multi-modal diffusion models with interactive fluid physics for spatial ideation.",
-          tags: ["WebGL", "TypeScript", "Python", "Diffusers"],
+          category: "Category / Stack",
+          description: "Brief summary of the work.",
+          tags: ["Tech1", "Tech2"],
           demoUrl: "#",
-          githubUrl: "https://github.com"
-        },
-        {
-          title: "HyperEditorial Layout Engine",
-          year: "2025",
-          category: "Design Systems / CSS Houdini",
-          description: "Algorithmic zine and magazine typography layout system inspired by early Swiss and Y2K print aesthetics for the open web.",
-          tags: ["Vanilla JS", "CSS Houdini", "Typography", "SVG"],
-          demoUrl: "#",
-          githubUrl: "https://github.com"
-        },
-        {
-          title: "Synapse Agentic Playground",
-          year: "2025",
-          category: "Developer Tools / LLMs",
-          description: "Autonomous multi-agent pair programming terminal that visualizes agent thought trees and memory vector spaces in real-time.",
-          tags: ["Electron", "WebSockets", "Rust", "Ollama"],
-          demoUrl: "#",
-          githubUrl: "https://github.com"
-        },
-        {
-          title: "Aether Reactive Soundscape",
-          year: "2024",
-          category: "Audio Computing / Three.js",
-          description: "Generative spatial audio synthesis platform modulated by cursor velocity, ambient viewport lighting, and device sensors.",
-          tags: ["Web Audio API", "Three.js", "GLSL Shaders"],
-          demoUrl: "#",
-          githubUrl: "https://github.com"
+          githubUrl: "https://github.com/..."
         }
+        */
       ]
     },
 

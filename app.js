@@ -223,24 +223,27 @@ function initModalSystem() {
 function generateModalHtml(key, data) {
   switch (key) {
     case 'projects':
+      if (!data.items || data.items.length === 0) {
+        return `<div class="projects-grid"></div>`;
+      }
       return `
         <div class="projects-grid">
           ${data.items.map(item => `
             <article class="project-card">
               <div>
                 <div class="project-meta-row">
-                  <span>${item.category}</span>
-                  <span>${item.year}</span>
+                  <span>${item.category || ''}</span>
+                  <span>${item.year || ''}</span>
                 </div>
                 <h3 class="project-title">${item.title}</h3>
-                <p class="project-desc">${item.description}</p>
+                <p class="project-desc">${item.description || ''}</p>
                 <div class="project-tags">
-                  ${item.tags.map(t => `<span class="project-tag">${t}</span>`).join('')}
+                  ${(item.tags || []).map(t => `<span class="project-tag">${t}</span>`).join('')}
                 </div>
               </div>
               <div class="project-actions">
-                <a href="${item.demoUrl}" class="card-btn" target="_blank" rel="noopener">LAUNCH DEMO ↗</a>
-                <a href="${item.githubUrl}" class="card-btn" target="_blank" rel="noopener">GITHUB ↗</a>
+                ${item.demoUrl ? `<a href="${item.demoUrl}" class="card-btn" target="_blank" rel="noopener">LAUNCH DEMO ↗</a>` : ''}
+                ${item.githubUrl ? `<a href="${item.githubUrl}" class="card-btn" target="_blank" rel="noopener">GITHUB ↗</a>` : ''}
               </div>
             </article>
           `).join('')}
